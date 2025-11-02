@@ -1,7 +1,7 @@
 // services/api.js
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://government-backend-dbhv.onrender.com//api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://government-backend-dbhv.onrender.com/api';
 
 // Regular API instance with 10s timeout
 const api = axios.create({

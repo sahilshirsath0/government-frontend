@@ -96,7 +96,7 @@ export const AuthProvider = ({ children }) => {
     dispatch({ type: 'LOGIN_START' });
     try {
       // First check if we need to setup admin
-      const setupResponse = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api'}/admin/setup-status`);
+      const setupResponse = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'https://government-backend-dbhv.onrender.com/api'}/admin/setup-status`);
       const setupData = await setupResponse.json();
       
       let response;
