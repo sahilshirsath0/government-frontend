@@ -1,0 +1,471 @@
+{
+  "login": {
+    "title": "Admin Login",
+    "subtitle": "Access your government portal dashboard",
+    "username": "Username",
+    "password": "Password",
+    "usernamePlaceholder": "Enter your username",
+    "passwordPlaceholder": "Enter your password",
+    "submit": "Sign In",
+    "footer": "Government Portal Administration"
+  },
+  "sidebar": {
+    "title": "Admin Portal",
+    "subtitle": "Government Dashboard",
+    "dashboard": "Dashboard",
+    "announcements": "Announcements",
+    "gallery": "Gallery",
+    "nagrikSeva": "Nagrik Seva",
+    "villageDetails": "Village Details",
+    "programs": "Programs",
+    "awards": "Awards",
+    "members": "Members",
+    "feedback": "Feedback",
+    "logout": "Logout"
+  },
+  "header": {
+    "title": "Government Admin Dashboard",
+    "role": "Administrator"
+  },
+  "dashboard": {
+    "welcome": "Welcome to Admin Dashboard",
+    "subtitle": "Manage your government website content and settings",
+    "stats": {
+      "totalAnnouncements": "Total Announcements",
+      "totalGallery": "Gallery Items",
+      "totalAwards": "Awards",
+      "totalMembers": "Team Members",
+      "pendingFeedback": "Pending Feedback",
+      "nagrikSevaApplications": "Citizen Applications",
+      "totalPrograms": "Total Programs"
+    },
+    "quickActions": {
+      "announcements": "Announcements",
+      "announcementsDesc": "Create and manage announcements",
+      "gallery": "Gallery",
+      "galleryDesc": "Manage gallery images",
+      "nagrikSeva": "Nagrik Seva",
+      "nagrikSevaDesc": "Manage citizen services and applications",
+      "villageDetails": "Village Details",
+      "villageDetailsDesc": "Update village information in multiple languages",
+      "programs": "Programs",
+      "programsDesc": "Manage village programs and initiatives",
+      "awards": "Awards",
+      "awardsDesc": "Add and edit awards",
+      "members": "Members",
+      "membersDesc": "Manage team members",
+      "feedback": "Feedback",
+      "feedbackDesc": "View user feedback",
+      "documents": "Documents",
+      "documentsDesc": "Access important files"
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "noAnnouncements": "No recent announcements",
+      "today": "Today",
+      "empty": "Latest updates on your dashboard"
+    },
+    "quickStats": {
+      "title": "Quick Stats",
+      "totalMembers": "Total Members",
+      "totalAwards": "Total Awards",
+      "pendingFeedback": "Pending Feedback"
+    }
+  },
+  "announcements": {
+    "title": "Announcements",
+    "subtitle": "Create and manage public announcements",
+    "create": "Create Announcement",
+    "search": "Search announcements...",
+    "filter": {
+      "all": "All Status",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "attachments": "attachments",
+    "createdBy": "Created by",
+    "confirmDelete": "Are you sure you want to delete this announcement?",
+    "empty": {
+      "title": "No announcements found",
+      "description": "Create your first announcement to get started"
+    },
+    "modal": {
+      "create": "Create New Announcement",
+      "edit": "Edit Announcement",
+      "view": "View Announcement"
+    },
+    "form": {
+      "message": "Message",
+      "messagePlaceholder": "Enter announcement message...",
+      "attachments": "Attachments",
+      "status": "Status",
+      "created": "Created Date",
+      "createdBy": "Created By",
+      "clickToUpload": "Click to upload files",
+      "selectedFiles": "Selected Files",
+      "cancel": "Cancel",
+      "create": "Create",
+      "update": "Update"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Manage photo gallery and image collections",
+    "create": "Add Image",
+    "search": "Search gallery...",
+    "filter": {
+      "all": "All Images",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "createdBy": "Added by",
+    "confirmDelete": "Are you sure you want to delete this image?",
+    "empty": {
+      "title": "No images found",
+      "description": "Add your first image to the gallery"
+    },
+    "modal": {
+      "create": "Add New Image",
+      "edit": "Edit Image",
+      "view": "View Image"
+    },
+    "form": {
+      "name": "Image Name",
+      "namePlaceholder": "Enter image name...",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter image description...",
+      "image": "Image File",
+      "status": "Status",
+      "created": "Added Date",
+      "clickToUpload": "Click to upload image",
+      "selectedImage": "Selected Image",
+      "cancel": "Cancel",
+      "create": "Add Image",
+      "update": "Update"
+    }
+  },
+  "nagrikSeva": {
+    "title": "Nagrik Seva Management",
+    "subtitle": "Manage citizen services and applications",
+    "headerImage": {
+      "title": "Header Image Management",
+      "update": "Update Image",
+      "noImage": "No header image uploaded"
+    },
+    "applications": {
+      "title": "Citizen Applications",
+      "search": "Search applications...",
+      "filter": {
+        "all": "All Applications",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "status": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "empty": {
+        "title": "No Applications Found",
+        "description": "No citizen service applications found."
+      },
+      "approve": "Approve",
+      "reject": "Reject",
+      "viewDetails": "View Details"
+    },
+    "form": {
+      "personalInfo": "Personal Information",
+      "fullName": "Full Name",
+      "whatsappNumber": "WhatsApp Number",
+      "email": "Email",
+      "aadhaarNumber": "Aadhaar Number",
+      "certificateInfo": "Certificate Information",
+      "certificateHolderName": "Certificate Holder Name",
+      "dateOfBirth": "Date of Birth",
+      "dateOfRegistration": "Date of Registration",
+      "paymentScreenshot": "Payment Screenshot",
+      "applicationStatus": "Application Status",
+      "appliedOn": "Applied On"
+    }
+  },
+  "villageDetails": {
+    "title": "Village Details Management",
+    "subtitle": "Manage village information in multiple languages",
+    "create": "Create Village Detail",
+    "edit": "Edit",
+    "view": "View",
+    "currentInfo": "Current Village Information",
+    "empty": {
+      "title": "No Village Details Found",
+      "description": "Create village details to display information about your village in multiple languages."
+    },
+    "modal": {
+      "create": "Create Village Detail",
+      "edit": "Edit Village Detail",
+      "view": "View Village Detail"
+    },
+    "form": {
+      "villageImage": "Village Image",
+      "updateImage": "Update Village Image (Optional)",
+      "clickToUpload": "Click to upload village image",
+      "englishContent": "English Content",
+      "hindiContent": "Hindi Content",
+      "title": "Title",
+      "titleEn": "Title (English)",
+      "titleHi": "Title (Hindi)",
+      "description": "Description",
+      "descriptionEn": "Description (English)",
+      "descriptionHi": "Description (Hindi)",
+      "titlePlaceholderEn": "Enter village title in English",
+      "titlePlaceholderHi": "Enter village title in Hindi",
+      "descriptionPlaceholderEn": "Enter village description in English",
+      "descriptionPlaceholderHi": "Enter village description in Hindi",
+      "cancel": "Cancel",
+      "create": "Create Village Detail",
+      "update": "Update Village Detail"
+    }
+  },
+  "programs": {
+    "title": "Programs Management",
+    "subtitle": "Manage village programs and initiatives",
+    "create": "Create Program",
+    "search": "Search programs...",
+    "confirmDelete": "Are you sure you want to delete this program?",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "filter": {
+      "all": "All Programs",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "empty": {
+      "title": "No Programs Found",
+      "description": "Create programs to showcase village initiatives and development projects."
+    },
+    "modal": {
+      "create": "Create New Program",
+      "edit": "Edit Program",
+      "view": "View Program"
+    },
+    "form": {
+      "programImage": "Program Image",
+      "clickToUpload": "Click to upload program image",
+      "programName": "Program Name",
+      "namePlaceholder": "Enter program name",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter program description",
+      "status": "Status",
+      "created": "Created Date",
+      "cancel": "Cancel",
+      "create": "Create Program",
+      "update": "Update Program"
+    },
+    "createdBy": "Created by"
+  },
+  "awards": {
+    "title": "Awards",
+    "subtitle": "Manage awards and recognitions",
+    "create": "Add Award",
+    "search": "Search awards...",
+    "filter": {
+      "all": "All Awards",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "createdBy": "Added by",
+    "awardDate": "Award Date",
+    "confirmDelete": "Are you sure you want to delete this award?",
+    "empty": {
+      "title": "No awards found",
+      "description": "Add your first award to get started"
+    },
+    "modal": {
+      "create": "Add New Award",
+      "edit": "Edit Award",
+      "view": "View Award"
+    },
+    "form": {
+      "name": "Award Name",
+      "namePlaceholder": "Enter award name...",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter award description...",
+      "awardDate": "Award Date",
+      "image": "Award Image",
+      "status": "Status",
+      "created": "Added Date",
+      "clickToUpload": "Click to upload award image",
+      "selectedImage": "Selected Image",
+      "cancel": "Cancel",
+      "create": "Add Award",
+      "update": "Update"
+    }
+  },
+  "members": {
+    "title": "Team Members",
+    "subtitle": "Manage team members and staff information",
+    "create": "Add Member",
+    "search": "Search members...",
+    "filter": {
+      "all": "All Members",
+      "active": "Active",
+      "inactive": "Inactive",
+      "department": "Filter by Department"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "createdBy": "Added by",
+    "confirmDelete": "Are you sure you want to delete this member?",
+    "empty": {
+      "title": "No team members found",
+      "description": "Add your first team member to get started"
+    },
+    "modal": {
+      "create": "Add New Member",
+      "edit": "Edit Member",
+      "view": "View Member"
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter member's full name...",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter member description...",
+      "position": "Position",
+      "positionPlaceholder": "Enter job position...",
+      "department": "Department",
+      "departmentPlaceholder": "Enter department...",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter email address...",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter phone number...",
+      "image": "Profile Image",
+      "status": "Status",
+      "created": "Added Date",
+      "clickToUpload": "Click to upload profile image",
+      "selectedImage": "Selected Image",
+      "cancel": "Cancel",
+      "create": "Add Member",
+      "update": "Update"
+    }
+  },
+  "feedback": {
+    "title": "User Feedback",
+    "subtitle": "View and manage user feedback and suggestions",
+    "search": "Search feedback...",
+    "filter": {
+      "all": "All Feedback",
+      "pending": "Pending",
+      "reviewed": "Reviewed",
+      "resolved": "Resolved"
+    },
+    "status": {
+      "pending": "Pending",
+      "reviewed": "Reviewed",
+      "resolved": "Resolved"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "confirmDelete": "Are you sure you want to delete this feedback?",
+    "empty": {
+      "title": "No feedback found",
+      "description": "User feedback will appear here when submitted"
+    },
+    "modal": {
+      "view": "View Feedback",
+      "updateStatus": "Update Status"
+    },
+    "form": {
+      "name": "User Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "status": "Status",
+      "adminNotes": "Admin Notes",
+      "adminNotesPlaceholder": "Enter admin notes...",
+      "reviewedBy": "Reviewed By",
+      "reviewedAt": "Review Date",
+      "submitted": "Submitted Date",
+      "cancel": "Cancel",
+      "updateStatus": "Update Status",
+      "delete": "Delete"
+    },
+    "details": {
+      "userInfo": "User Information",
+      "feedbackDetails": "Feedback Details",
+      "adminSection": "Admin Section"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "all": "All",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "actions": {
+      "confirm": "Confirm",
+      "yes": "Yes",
+      "no": "No",
+      "reset": "Reset"
+    },
+    "messages": {
+      "success": "Operation completed successfully",
+      "error": "An error occurred",
+      "deleteConfirm": "Are you sure you want to delete this item?",
+      "noData": "No data available",
+      "selectFile": "Select a file",
+      "fileSelected": "File selected",
+      "uploading": "Uploading...",
+      "uploaded": "Uploaded successfully"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of",
+      "showing": "Showing",
+      "to": "to",
+      "entries": "entries"
+    }
+  }
+}

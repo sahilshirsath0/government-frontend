@@ -1,0 +1,155 @@
+/* Dashboard Stats Container */
+.dashboard-stats-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Stat Card */
+.stat-card {
+  overflow: hidden;
+  background: linear-gradient(to bottom right, white, #f9fafb);
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid #fecaca;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 200px;
+}
+
+.stat-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+/* Stat Card Content */
+.stat-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Stat Info */
+.stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-size: 36px;
+  font-weight: 900;
+  color: #111827;
+  margin: 0;
+}
+
+/* Stat Icon */
+.stat-icon {
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover .stat-icon {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.stat-icon .icon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+
+/* Color Gradients */
+.stat-blue-cyan {
+  background: linear-gradient(to right, #3b82f6, #06b6d4);
+}
+
+.stat-green-emerald {
+  background: linear-gradient(to right, #10b981, #059669);
+}
+
+.stat-purple-fuchsia {
+  background: linear-gradient(to right, #a855f7, #d946ef);
+}
+
+.stat-yellow-orange {
+  background: linear-gradient(to right, #eab308, #f97316);
+}
+
+.stat-red-pink {
+  background: linear-gradient(to right, #ef4444, #ec4899);
+}
+
+/* Responsive Design */
+@media (max-width: 1280px) {
+  .dashboard-stats-container {
+    gap: 12px;
+  }
+
+  .stat-card {
+    min-width: 180px;
+  }
+
+  .stat-value {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .dashboard-stats-container {
+    gap: 16px;
+  }
+
+  .stat-card {
+    min-width: calc(50% - 8px);
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-stats-container {
+    flex-direction: column;
+  }
+
+  .stat-card {
+    min-width: 100%;
+  }
+
+  .stat-card-content {
+    padding: 0;
+  }
+
+  .stat-title {
+    font-size: 13px;
+  }
+
+  .stat-value {
+    font-size: 28px;
+  }
+
+  .stat-icon {
+    padding: 12px;
+  }
+
+  .stat-icon .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .stat-card {
+    padding: 16px;
+  }
+
+  .stat-value {
+    font-size: 24px;
+  }
+}
