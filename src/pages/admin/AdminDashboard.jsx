@@ -80,7 +80,7 @@ const AdminDashboard = () => {
       title: t('dashboard.quickActions.documents'),
       description: t('dashboard.quickActions.documentsDesc'),
       icon: FileText,
-      path: '#',
+      path: '/admin-dashboard/nagrik-seva',
       color: 'from-gray-500 to-slate-500',
       bgColor: 'from-gray-50 to-slate-50'
     }

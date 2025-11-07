@@ -708,32 +708,7 @@ const NagrikSeva = () => {
               >
                 {t('common.close')}
               </button>
-              <div className="status-actions">
-                <button
-                  onClick={() => handleStatusUpdate(selectedApplication._id, 'rejected')}
-                  className="btn btn-danger"
-                  disabled={isUpdatingStatus === selectedApplication._id}
-                >
-                  {isUpdatingStatus === selectedApplication._id ? (
-                    <div className="submit-spinner"></div>
-                  ) : (
-                    <XCircle size={16} />
-                  )}
-                  {t('nagrikSeva.applications.actions.reject')}
-                </button>
-                <button
-                  onClick={() => handleStatusUpdate(selectedApplication._id, 'approved')}
-                  className="btn btn-success"
-                  disabled={isUpdatingStatus === selectedApplication._id}
-                >
-                  {isUpdatingStatus === selectedApplication._id ? (
-                    <div className="submit-spinner"></div>
-                  ) : (
-                    <CheckCircle size={16} />
-                  )}
-                  {t('nagrikSeva.applications.actions.approve')}
-                </button>
-              </div>
+              
             </div>
           </div>
         </div>

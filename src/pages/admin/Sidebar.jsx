@@ -116,18 +116,19 @@ const Sidebar = () => {
             );
           })}
         </div>
-      </nav>
-
-      {/* Logout */}
-      <div className="p-4 border-t border-blue-800">
+             <div className="p-4 bg-orange-500 border-blue-800">
         <button
           onClick={logout}
-          className="flex items-center gap-3 px-4 py-3 w-full text-blue-200 hover:bg-blue-800 hover:text-white rounded-lg transition-colors duration-200"
+          className=" mb-y-5 flex items-center gap-3 px-4 py-3 w-full text-blue-200 hover:bg-blue-800 hover:text-white rounded-lg transition-colors duration-200"
         >
           <LogOut size={20} />
           <span className="font-medium">{t('sidebar.logout')}</span>
         </button>
       </div>
+      </nav>
+
+      {/* Logout */}
+ 
     </div>
   );
 };
