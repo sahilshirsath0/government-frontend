@@ -489,7 +489,7 @@ const NagrikSeva = () => {
                     
                   </div>
                   <div className="detail-item">
-                    <span className="detail-text strong bold">{application.certificateName}</span>
+                    <span className="strong bold">{application.certificateName}</span>
                   </div>
                   
                 </div>
