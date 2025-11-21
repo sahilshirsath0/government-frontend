@@ -194,7 +194,8 @@
       "dateOfRegistration": "नोंदणी तारीख",
       "paymentScreenshot": "पेमेंट स्क्रीनशॉट",
       "applicationStatus": "अर्ज स्थिती",
-      "appliedOn": "अर्ज दिनांक"
+      "appliedOn": "अर्ज दिनांक",
+      "certificateName":"प्रमाणपत्राचे नाव"
     }
   },
   "villageDetails": {

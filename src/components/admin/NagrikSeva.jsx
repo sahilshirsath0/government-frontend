@@ -486,6 +486,7 @@ const NagrikSeva = () => {
                   <div className="detail-item">
                     <Mail className="icon-sm detail-icon" />
                     <span className="detail-text">{application.email}</span>
+                    <span className="detail-text">{application.certificateName}</span>
                   </div>
                   
                 </div>
@@ -666,6 +667,10 @@ const NagrikSeva = () => {
                   <div className="info-card info-card-indigo">
                     <label className="info-label">{t('nagrikSeva.form.certificateHolderName')}</label>
                     <p className="info-value">{selectedApplication.certificateHolderName}</p>
+                  </div>
+                  <div className="info-card info-card-indigo">
+                    <label className="info-label">{t('nagrikSeva.form.certificateName')}</label>
+                    <p className="info-value">{selectedApplication.certificateName}</p>
                   </div>
 
               

@@ -194,7 +194,8 @@
       "dateOfRegistration": "Date of Registration",
       "paymentScreenshot": "Payment Screenshot",
       "applicationStatus": "Application Status",
-      "appliedOn": "Applied On"
+      "appliedOn": "Applied On",
+      "certificateName":"Certificate Name"
     }
   },
   "villageDetails": {
