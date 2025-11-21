@@ -486,7 +486,10 @@ const NagrikSeva = () => {
                   <div className="detail-item">
                     <Mail className="icon-sm detail-icon" />
                     <span className="detail-text">{application.email}</span>
-                    <span className="detail-text">{application.certificateName}</span>
+                    
+                  </div>
+                  <div className="detail-item">
+                    <span className="detail-text strong bold">{application.certificateName}</span>
                   </div>
                   
                 </div>
