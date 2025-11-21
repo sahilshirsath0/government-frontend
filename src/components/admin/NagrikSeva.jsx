@@ -487,10 +487,7 @@ const NagrikSeva = () => {
                     <Mail className="icon-sm detail-icon" />
                     <span className="detail-text">{application.email}</span>
                   </div>
-                  <div className="detail-item">
-                    <Calendar className="icon-sm detail-icon" />
-                    <span className="detail-text">DOB: {formatDate(application.dateOfBirth)}</span>
-                  </div>
+                  
                 </div>
 
                 {/* Footer */}
@@ -671,10 +668,7 @@ const NagrikSeva = () => {
                     <p className="info-value">{selectedApplication.certificateHolderName}</p>
                   </div>
 
-                  <div className="info-card info-card-teal">
-                    <label className="info-label">{t('nagrikSeva.form.dateOfBirth')}</label>
-                    <p className="info-value">{formatDate(selectedApplication.dateOfBirth)}</p>
-                  </div>
+              
 
                   {selectedApplication.dateOfRegistration && (
                     <div className="info-card info-card-rose">
@@ -691,7 +685,7 @@ const NagrikSeva = () => {
                   <h3 className="section-title">{t('nagrikSeva.form.paymentScreenshot')}</h3>
                   <div className="payment-image-container">
                     <img
-                      src={selectedApplication.paymentScreenshot.data}
+                      src={`data:${selectedApplication.paymentScreenshot.contentType};base64,${selectedApplication.paymentScreenshot.data}`}
                       alt="Payment Screenshot"
                       className="payment-image"
                     />
