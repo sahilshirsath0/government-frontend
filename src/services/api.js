@@ -6,13 +6,13 @@ const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://government-ba
 // Regular API instance with 10s timeout
 const api = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 10000,
+  timeout: 400000,
 });
 
 // File upload API instance with 60s timeout
 const fileUploadAPI = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 60000, // 60 seconds for file uploads
+  timeout: 90000, // 60 seconds for file uploads
 });
 
 // Apply interceptors to both instances
